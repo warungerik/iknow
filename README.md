@@ -24,30 +24,3 @@ Skill untuk Claude yang memaksa gaya kode dan gaya jawaban yang konsisten: bersi
 
 Pada file HTML, watermark diletakkan di baris setelah `<!DOCTYPE html>`.
 
-## Struktur
-
-```
-aturan-coding/
-  SKILL.md
-  README.md
-```
-
-## Instalasi
-
-Claude.ai: kompres folder `aturan-coding` menjadi zip, lalu unggah lewat menu Skills di pengaturan.
-
-Claude Code: salin folder ke direktori skills.
-
-```bash
-git clone https://github.com/USERNAME/aturan-coding.git ~/.claude/skills/aturan-coding
-```
-
-Ganti `USERNAME` dengan akun GitHub Anda.
-
-## Penggunaan
-
-Skill aktif otomatis setiap kali Claude diminta menulis, mengedit, atau meninjau kode. Tidak perlu perintah khusus.
-
-## Lisensi
-
-Tentukan lisensi sebelum dipublikasikan, misalnya MIT.
